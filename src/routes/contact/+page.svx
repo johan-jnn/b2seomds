@@ -1,0 +1,12 @@
+<script lang="ts">
+  import app from "$lib/data/app.json";
+</script>
+
+# Contactez {app.keyword}
+
+## Prenez contact et venez nous rencontrer
+
+<form method="post" action="/message">
+  <!-- TODO -->
+</form>
+

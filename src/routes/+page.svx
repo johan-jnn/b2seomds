@@ -1,0 +1,8 @@
+<script lang="ts">
+  import app from "$lib/data/app.json";
+</script>
+
+# Bienvenue chez {app.keyword}
+
+## Votre agence web de référence
+
