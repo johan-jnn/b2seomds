@@ -2,6 +2,11 @@
   import app from "$lib/data/app.json";
 </script>
 
+<svelte:head>
+  <title>{app.keyword} : Votre agence web de référence</title>
+  <meta name="description" content="{app.keyword} est une agence web conçu pour s'adapter à vos et uniquement vos besoins.">
+</svelte:head>
+
 # Bienvenue chez {app.keyword}
 
 ## Votre agence web de référence
