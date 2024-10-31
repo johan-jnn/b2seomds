@@ -1,8 +1,4 @@
-<script lang="ts">
-  import app from "$lib/data/app.json";
-</script>
-
-# Contactez {app.keyword}
+# Contactez b2seomds
 
 ## Prenez contact et venez nous rencontrer
 

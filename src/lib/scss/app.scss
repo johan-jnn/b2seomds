@@ -1,13 +1,19 @@
-@use "./colors" as *;
+@use './colors' as *;
 
 @font-face {
   font-family: NotoSans;
-  src: url("/fonts/notosans_variable.ttf") format(truetype);
+  font-display: swap;
+  src:
+    local('Noto Sans'),
+    url('/fonts/notosans_variable.ttf') format(truetype);
 }
 @font-face {
   font-family: NotoSans;
   font-style: italic;
-  src: url("/fonts/notosans_variable_italic.ttf") format(truetype);
+  font-display: swap;
+  src:
+    local('Noto Sans'),
+    url('/fonts/notosans_variable_italic.ttf') format(truetype);
 }
 
 *,
@@ -32,5 +38,21 @@ a {
   }
   &:hover {
     text-decoration-style: wavy;
+  }
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+@for $i from 1 to 7 {
+  h#{$i} {
+    margin: calc(20px - #{$i} * 2px) 0;
   }
 }

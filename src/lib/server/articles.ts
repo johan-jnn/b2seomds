@@ -1,27 +1,34 @@
 import path from 'node:path';
+import { dev } from '$app/environment';
 
-interface ArticleProps {
+export interface ArticleProps {
   title: string;
   description: string;
   author: string;
+  category: string;
+  created: Date;
   tags?: string[];
   layout?: string;
 }
 
-interface Article {
+export interface Article {
   metadata: ArticleProps;
   url: string;
   id: string;
 }
 
+const cache = new Set<Article>();
+
 export function list_articles(): Article[] {
+  if (!dev && cache.size) return Array.from(cache);
+
   const files = import.meta.glob<{
     metadata: ArticleProps;
   }>('$routes/blog/*/+page.(svx|md)', {
     eager: true
   });
 
-  return Object.entries(files).map(([file, { metadata }]) => {
+  const result = Object.entries(files).map(([file, { metadata }]) => {
     const pathInfo = path.parse(file);
     const article_id = pathInfo.dir.split('/').at(-1)!;
     return {
@@ -30,4 +37,7 @@ export function list_articles(): Article[] {
       metadata
     };
   });
+
+  result.forEach((article) => cache.add(article));
+  return result;
 }

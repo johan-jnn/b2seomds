@@ -1,0 +1,20 @@
+{
+  "johan": {
+    "first_name": "Johan",
+    "last_name": "JANIN",
+    "username": "johan",
+    "gender": "male"
+  },
+  "alexis": {
+    "first_name": "Alexis",
+    "last_name": "MARIN",
+    "username": "alexis",
+    "gender": "male"
+  },
+  "enzo": {
+    "first_name": "Enzo",
+    "last_name": "DI GIOVANNI",
+    "username": "enzo",
+    "gender": "male"
+  }
+}

@@ -50,8 +50,9 @@ Voici les valeurs à inscrire :
 clef | optionnelle | type | correspondance
 ---|---|---|---
 title | NON | `string` | Le titre de l'article
+category | NON | `string` | La catégorie de l'article
 description | NON | `string` | Une courte description/résumé de l'article
-author | NON | `string` | Le nom de l'auteur de l'article
+author | NON | `keyof: authors` | Le nom de l'auteur de l'article. Prendre une des clefs du fichier `authors.json` (`/src/lib/data/authors.json`)
 created | NON | `ANNEE-MOIS-JOUR` | La date de création de l'article en format *ISO8601* (exemple: `2024-03-30`)
 tags | OUI | `string[]` | Une liste de **mots**-clefs faisant écho au contenu de l'article
 

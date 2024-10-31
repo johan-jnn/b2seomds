@@ -1,14 +1,14 @@
 <script lang="ts">
-  import app from "$lib/data/app.json";
-
   export let data;
   console.log(data.articles);
 </script>
 
 <h2>Découvrez nos articles</h2>
 
-<p>Vous souhaitez en connaître plus sur l'agence {app.keyword} ?</p>
-<p>Lisez notre série d'article écrit par nos rédacteurs professionels engagés par {app.keyword}.</p>
+<p>Vous souhaitez en connaître plus sur l'agence b2seomds ?</p>
+<p>
+  Lisez notre série d'article écrit par nos rédacteurs professionels engagés par b2seomds.
+</p>
 
 <ol>
   {#each data.articles as article (article.id)}

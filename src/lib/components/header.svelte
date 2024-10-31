@@ -1,10 +1,6 @@
-<script lang="ts">
-  import app from '$lib/data/app.json';
-</script>
-
 <header>
-  <a href="/" title="Revenir sur la page d'accueil de {app.keyword}">
-    <img src="/logo_transp.webp" alt="Logo de l'agence web {app.keyword}" />
+  <a href="/" title="Revenir sur la page d'accueil de b2seomds">
+    <img src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" />
   </a>
 
   <nav>
@@ -34,6 +30,20 @@
     > a,
     img {
       height: 100%;
+    }
+
+    > nav {
+      flex-grow: 1;
+      > ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+
+        list-style: none;
+        padding-right: 25px;
+      }
     }
   }
 </style>

@@ -1,13 +1,74 @@
-<script lang="ts">
-  import app from "$lib/data/app.json";
-</script>
-
 <svelte:head>
-  <title>{app.keyword} : Votre agence web de référence</title>
-  <meta name="description" content="{app.keyword} est une agence web conçu pour s'adapter à vos et uniquement vos besoins.">
+  <title>b2seomds : Votre agence web de référence</title>
+  <meta
+    name="description"
+    content="b2seomds est une agence web conçu pour s'adapter à vos et uniquement vos besoins."
+  />
 </svelte:head>
 
-# Bienvenue chez {app.keyword}
+# Bienvenue chez **b2seomds**
 
-## Votre agence web de référence
+## Création d'Interfaces Web et Stratégies de Référencement
 
+Chez **b2seomds**, nous concevons des interfaces web sur mesure pour des entreprises de toutes tailles, que ce soit pour des marques de renom comme *Decathlon*, des institutions publiques telles que *la Métropole de Lyon*, ou de nombreuses associations engagées dans des missions variées. Notre mission est d’offrir des solutions numériques performantes et adaptées aux besoins spécifiques de chaque client, tout en renforçant leur visibilité sur le web.
+
+---
+
+## Nos Services
+
+### 🌐 Conception et Création d'Interfaces Web
+
+Vous recherchez une interface claire, moderne et fonctionnelle pour votre site web ? Nous sommes experts en **design UX/UI**, garantissant une expérience utilisateur fluide et immersive. Nous collaborons avec vous pour concevoir des plateformes intuitives qui répondent aux besoins de vos utilisateurs finaux et qui renforcent l'image de votre marque.
+
+| Services de Création Web                | Description                                                  |
+|-----------------------------------------|--------------------------------------------------------------|
+| **Design UX/UI**                        | Création de parcours utilisateurs optimisés.                 |
+| **Développement sur mesure**            | Adaptation aux spécificités de chaque projet.                |
+| **Maintenance et évolution**            | Suivi et mises à jour régulières pour une performance accrue. |
+
+### 🔍 Référencement Naturel (SEO)
+
+La visibilité sur Google est cruciale dans un monde où la majorité des recherches se font en ligne. Nos experts SEO élaborent des stratégies de référencement naturel adaptées pour maximiser votre positionnement sur les moteurs de recherche. Grâce à une analyse approfondie et à une optimisation de votre contenu, nous augmentons votre notoriété en ligne et renforçons votre crédibilité aux yeux des utilisateurs et de Google.
+
+Les bénéfices du SEO pour votre entreprise :
+- **Augmentation de la visibilité** : Soyez trouvé par vos futurs clients.
+- **Amélioration de la crédibilité** : Les résultats organiques inspirent la confiance.
+- **ROI optimal** : Investissement durable pour un trafic de qualité.
+
+### 📈 Publicité en Ligne (SEA)
+
+Boostez rapidement votre commerce avec des campagnes publicitaires ciblées. Nos spécialistes SEA (Search Engine Advertising) maîtrisent les campagnes Google Ads et d'autres canaux de publicité en ligne pour générer du trafic pertinent vers votre site web. Grâce à des techniques de ciblage avancées, nous attirons les utilisateurs qui recherchent activement vos produits ou services.
+
+| Type de Campagne         | Objectif                              |
+|---------------------------|---------------------------------------|
+| **Google Ads**            | Trafic qualifié et conversions.       |
+| **Social Media Ads**      | Engagement et visibilité sur les réseaux. |
+| **Remarketing**           | Fidélisation des visiteurs et clients. |
+
+---
+
+## Pourquoi Choisir **b2seomds** ?
+
+Notre approche se base sur une **collaboration étroite** avec nos clients et une **expertise technique** solide. Que vous soyez une grande entreprise, une institution publique ou une association, nous nous adaptons à vos besoins et vous accompagnons à chaque étape de votre projet digital. Grâce à notre **savoir-faire** en création d'interfaces web, SEO et SEA, nous vous aidons à atteindre vos objectifs de visibilité et de croissance en ligne.
+
+**Notre philosophie :** chaque projet est unique, et c’est pourquoi nous prenons le temps de comprendre votre identité et vos ambitions pour créer une solution qui vous ressemble.
+
+---
+
+## Ils nous font confiance
+
+- **Decathlon**
+- **Métropole de Lyon**
+- Associations et entreprises de divers secteurs
+
+*(Insérer une image montrant les logos de clients célèbres et de projets variés)*
+
+---
+
+## Discutons de Votre Projet !
+
+Vous avez un projet en tête ou souhaitez simplement en savoir plus sur nos services ? N'attendez plus pour faire de votre présence en ligne un véritable levier de croissance. 
+
+**Contactez-nous dès aujourd'hui** et échangeons sur vos ambitions !
+
+👉 [Contactez-nous](/contact)
