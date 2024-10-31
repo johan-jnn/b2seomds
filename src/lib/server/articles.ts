@@ -28,8 +28,7 @@ export function list_articles(): Article[] {
     eager: true
   });
 
-  const result = Object.entries(files).map(([file, data]) => {
-    const {metadata} = data
+  const result = Object.entries(files).map(([file, {metadata}]) => {
     const pathInfo = path.parse(file);
     const article_id = pathInfo.dir.split('/').at(-1)!;
     

@@ -57,7 +57,7 @@ Pour des recommandations encore plus pertinentes, nous avons segmenté nos artic
 ### SEO
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags.includes("seo")) as article (article.id)}
+  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("seo")) as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
@@ -67,7 +67,7 @@ Pour des recommandations encore plus pertinentes, nous avons segmenté nos artic
 ### SEA
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags.includes("sea")) as article (article.id)}
+  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("sea")) as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
@@ -77,7 +77,7 @@ Pour des recommandations encore plus pertinentes, nous avons segmenté nos artic
 ### Design
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags.includes("design")) as article (article.id)}
+  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("design")) as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
