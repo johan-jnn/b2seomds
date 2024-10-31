@@ -1,5 +1,5 @@
 <footer>
-  <h2>Retrouvez b2seomds sur vos réseaux sociaux</h2>
+  <h2>Retrouvez <b>b2seomds</b> sur vos réseaux sociaux</h2>
 
   <ul>
     <a href="https://www.instagram.com/b2seomds?igsh=bDZkNmkwbGNwdjh3">
@@ -11,10 +11,9 @@
       <li>Twitter de b2seomds <img src="/imgs/twitter.webp" alt="Twitter de b2seomds" /></li></a
     >
   </ul>
-</footer>
 
-<!-- Lien de nav vers les blog -->
-<!-- Lien de nav vers les RS -->
+  <a class="blog" href="/blog">Découvrez les blogs <b>b2seomds</b> juste ici !</a>
+</footer>
 
 <style lang="scss">
   ul {
@@ -30,6 +29,7 @@
     }
 
     ul {
+      margin: 50px 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -48,6 +48,13 @@
         justify-content: center;
         gap: 20px;
       }
+    }
+
+    .blog {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
   }
 </style>
