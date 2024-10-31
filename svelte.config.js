@@ -2,6 +2,8 @@ import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import autoprefixer from 'autoprefixer';
+import { remarkTableOfContents } from "remark-table-of-contents"
+import remarkHeadingId from 'remark-heading-id';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +17,20 @@ const config = {
 		layout: {
 			blog: "./src/lib/components/article_content.svelte"
 		},
-		extensions: [".md", ".svx"]
+		extensions: [".md", ".svx"],
+		remarkPlugins: [
+			[remarkHeadingId, {
+				defaults: true
+			}],
+			[remarkTableOfContents, {
+				mdx: false,
+				isListOrdered: true,
+				navAttributes: {
+					'aria-label': 'table of contents',
+					class: "toc"
+				}
+			}], 
+		]
 	})],
 
 	kit: {

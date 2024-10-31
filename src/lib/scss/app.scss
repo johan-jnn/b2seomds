@@ -47,12 +47,40 @@ main {
   padding: 15px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-position: inside;
+  > li {
+    margin: 15px 0;
+  }
 }
 
 @for $i from 1 to 7 {
   h#{$i} {
     margin: calc(20px - #{$i} * 2px) 0;
+  }
+}
+
+button:not(.default) {
+  padding: 10px 15px;
+  border-radius: 999px;
+  background-color: $solid;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+  &:hover {
+    box-shadow: 0 2.5px 10px rgba($color: $solid, $alpha: 0.45);
+  }
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.toc {
+  ol,
+  ul {
+    margin-left: 10px;
   }
 }

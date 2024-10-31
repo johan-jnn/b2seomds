@@ -28,6 +28,8 @@
 		"@sveltejs/adapter-netlify": "^4.3.6",
 		"@sveltejs/adapter-static": "^3.0.6",
 		"autoprefixer": "^10.4.20",
+		"remark-heading-id": "^1.0.1",
+		"remark-table-of-contents": "^2.1.0",
 		"sass": "^1.80.5"
 	}
 }

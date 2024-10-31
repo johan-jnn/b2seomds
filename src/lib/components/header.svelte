@@ -1,6 +1,6 @@
 <header>
   <a href="/" title="Revenir sur la page d'accueil de b2seomds">
-    <img src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" />
+    <img width="75" height="75" src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" />
   </a>
 
   <nav>
@@ -12,7 +12,7 @@
   </nav>
 
   <form action="/search" method="get">
-    <button type="submit" title="Valider la recherche">🔍</button>
+    <button type="submit" class="default" title="Valider la recherche">🔍</button>
     <input type="search" name="q" id="query" placeholder="Rechercher sur notre site web" />
   </form>
 </header>
