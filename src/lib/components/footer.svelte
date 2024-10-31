@@ -2,14 +2,17 @@
   <h2>Retrouvez <b>b2seomds</b> sur vos réseaux sociaux</h2>
 
   <ul>
-    <a href="https://www.instagram.com/b2seomds?igsh=bDZkNmkwbGNwdjh3">
-      <li>
+    <li>
+      <a href="https://www.instagram.com/b2seomds?igsh=bDZkNmkwbGNwdjh3">
         Instagram de b2seomds <img src="/imgs/instagram.webp" alt="Instagram de b2seomds" />
-      </li></a
-    >
-    <a href="https://x.com/b2seomds?s=21">
-      <li>Twitter de b2seomds <img src="/imgs/twitter.webp" alt="Twitter de b2seomds" /></li></a
-    >
+      </a>
+    </li>
+
+    <li>
+      <a href="https://x.com/b2seomds?s=21">
+        Twitter de b2seomds<img src="/imgs/twitter.webp" alt="Twitter de b2seomds" />
+      </a>
+    </li>
   </ul>
 
   <a class="blog" href="/blog">Découvrez les blogs <b>b2seomds</b> juste ici !</a>
@@ -42,11 +45,13 @@
       }
 
       li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 20px;
+        }
       }
     }
 
