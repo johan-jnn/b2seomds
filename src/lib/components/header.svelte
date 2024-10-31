@@ -10,6 +10,11 @@
       <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
+
+  <form action="/search" method="get">
+    <button type="submit" title="Valider la recherche">🔍</button>
+    <input type="search" name="q" id="query" placeholder="Rechercher sur notre site web" />
+  </form>
 </header>
 
 <style lang="scss">

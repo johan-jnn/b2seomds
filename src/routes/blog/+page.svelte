@@ -1,7 +1,10 @@
 <script lang="ts">
   export let data;
-  console.log(data.articles);
 </script>
+
+<svelte:head>
+  <meta name="description" content="Découvrez de blog de notre agence web b2seomds !">
+</svelte:head>
 
 <h2>Découvrez nos articles</h2>
 

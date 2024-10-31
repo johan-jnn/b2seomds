@@ -1,12 +1,17 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import autoprefixer from 'autoprefixer';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
-	preprocess: [vitePreprocess(), mdsvex({
+	preprocess: [vitePreprocess({
+		style: {
+			plugins: [autoprefixer()]
+		}
+	}), mdsvex({
 		layout: {
 			blog: "./src/lib/components/article_content.svelte"
 		},

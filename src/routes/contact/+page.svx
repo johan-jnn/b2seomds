@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>b2seomds - Contactez nous !</title>
+  <meta name="description" content="Découvrez de blog de notre agence web b2seomds !">
+</svelte:head>
+
 # Contactez b2seomds
 
 ## Prenez contact et venez nous rencontrer
