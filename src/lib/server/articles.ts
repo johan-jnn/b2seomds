@@ -3,8 +3,8 @@ import path from 'node:path';
 interface ArticleProps {
   title: string;
   description: string;
-  tags: string[];
   author: string;
+  tags?: string[];
   layout?: string;
 }
 
@@ -17,7 +17,7 @@ interface Article {
 export function list_articles(): Article[] {
   const files = import.meta.glob<{
     metadata: ArticleProps;
-  }>('$routes/blog/*/+page.svx', {
+  }>('$routes/blog/*/+page.(svx|md)', {
     eager: true
   });
 
