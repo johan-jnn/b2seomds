@@ -18,6 +18,8 @@
 </header>
 
 <style lang="scss">
+  @use '$lib/scss/colors' as *;
+
   header {
     position: sticky;
     top: 0;
@@ -48,6 +50,41 @@
 
         list-style: none;
         padding-right: 25px;
+      }
+    }
+
+    > form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      > * {
+        height: 75%;
+        border: none;
+        background-color: $interaction;
+        color: $text;
+        outline: none;
+      }
+      > button {
+        aspect-ratio: 1 / 1;
+        border-radius: 999px 0 0 999px;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 750px) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        
+        > * {
+          border-radius: 0 !important;
+          height: 100% !important;
+        }
+        > input {
+          width: 100%;
+        }
       }
     }
   }
