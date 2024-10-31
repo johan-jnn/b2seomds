@@ -20,7 +20,7 @@
   <meta property="og:type" content="article" />
 
   <meta property="article:section" content={category} />
-  <meta property="article:published_time" content={created.toISOString()} />
+  <meta property="article:published_time" content={created} />
 
   {#if tags}
     {#each tags as tag}

@@ -1,0 +1,103 @@
+<script lang="ts">
+  export let data;
+  import Article from "$lib/components/article.svelte";
+</script>
+
+<svelte:head>
+  <meta name="description" content="Découvrez de blog de notre agence web b2seomds !">
+</svelte:head>
+
+# Blog de **b2seomds** : Votre source d’expertise en digital et référencement
+
+Bienvenue sur le blog de **b2seomds** ! Découvrez nos articles, guides et études de cas pour booster la visibilité de votre entreprise sur le web. Que vous soyez une grande entreprise ou une association locale, nous vous proposons des conseils pratiques pour améliorer votre stratégie digitale, de la création d'interfaces web au référencement sur Google. 📈
+
+---
+
+## Articles récents
+
+<ol>
+  {#each data.articles as article (article.id)}
+    <li id={article.id}>
+      <Article data={article.metadata} url={article.url}/>
+    </li>
+  {/each}
+</ol>
+
+---
+
+## Catégories de contenu
+
+Organisez vos lectures par thème selon vos intérêts et besoins ! 📚 Retrouvez ci-dessous les principaux sujets abordés sur notre blog.
+
+- **Conception Web** : conseils pour créer des interfaces attractives et ergonomiques.
+- **SEO** : astuces pour améliorer votre positionnement sur les moteurs de recherche.
+- **SEA** : stratégies pour booster vos campagnes de publicité payante.
+- **Études de cas** : analyses détaillées de nos projets et collaborations avec nos clients.
+
+---
+
+## Articles populaires
+
+Découvrez les contenus plébiscités par nos lecteurs ⭐️ :
+
+<ul>
+  {#each data.articles.slice(-3) as article (article.id)}
+    <li id={article.id}>
+      <Article data={article.metadata} url={article.url}/>
+    </li>
+  {/each}
+</ul>
+
+---
+
+## Articles par secteur d’activité
+
+Pour des recommandations encore plus pertinentes, nous avons segmenté nos articles par type de clients et secteur d’activité 🔍 :
+
+### SEO
+
+<ol>
+  {#each data.articles.filter(({metadata}) => metadata.tags.includes("seo")) as article (article.id)}
+    <li id={article.id}>
+      <Article data={article.metadata} url={article.url}/>
+    </li>
+  {/each}
+</ol>
+
+### SEA
+
+<ol>
+  {#each data.articles.filter(({metadata}) => metadata.tags.includes("sea")) as article (article.id)}
+    <li id={article.id}>
+      <Article data={article.metadata} url={article.url}/>
+    </li>
+  {/each}
+</ol>
+
+### Design
+
+<ol>
+  {#each data.articles.filter(({metadata}) => metadata.tags.includes("design")) as article (article.id)}
+    <li id={article.id}>
+      <Article data={article.metadata} url={article.url}/>
+    </li>
+  {/each}
+</ol>
+
+---
+
+## Restez informé ! Abonnez-vous 📬
+
+Ne manquez plus aucun article de **b2seomds** en vous abonnant à notre newsletter. Recevez des astuces, des études de cas et des stratégies directement dans votre boîte mail.
+
+---
+
+## Pourquoi suivre le blog de **b2seomds** ?
+
+- **Expertise** : Nos articles sont rédigés par des experts en SEO, SEA et développement web.
+- **Recommandations adaptées** : Nous comprenons les spécificités de différents secteurs et proposons des conseils sur mesure.
+- **Actualité** : Restez à jour sur les dernières tendances et innovations digitales. 🚀
+
+---
+
+Pour consulter nos derniers articles ou en savoir plus sur nos services, contactez-nous dès aujourd'hui ! Nos experts se feront un plaisir de vous guider vers la solution digitale idéale.
