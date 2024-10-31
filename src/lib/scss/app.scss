@@ -5,15 +5,15 @@
   font-display: swap;
   src:
     local('Noto Sans'),
-    url('/fonts/notosans_variable.ttf') format(truetype);
+    url('/fonts/notosans_variable.woff2') format(woff2);
 }
 @font-face {
   font-family: NotoSans;
   font-style: italic;
   font-display: swap;
   src:
-    local('Noto Sans'),
-    url('/fonts/notosans_variable_italic.ttf') format(truetype);
+    local('Noto Sans Italic'),
+    url('/fonts/notosans_variable_italic.woff2') format(woff2);
 }
 
 *,

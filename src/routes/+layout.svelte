@@ -8,14 +8,14 @@
   <link
     rel="preload"
     as="font"
-    href="/fonts/notosans_variable.ttf"
+    href="/fonts/notosans_variable.woff2"
     type="font/ttf"
     crossorigin="anonymous"
   />
   <link
     rel="preload"
     as="font"
-    href="/fonts/notosans_variable_italic.ttf"
+    href="/fonts/notosans_variable_italic.woff2"
     type="font/ttf"
     crossorigin="anonymous"
   />
