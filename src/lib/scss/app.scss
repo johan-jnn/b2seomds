@@ -62,7 +62,13 @@ ol {
 @for $i from 1 to 7 {
   h#{$i} {
     margin: calc(20px - #{$i} * 2px) 0;
+    @if $i > 1 {
+      font-size: calc(35px - $i * 2px);
+    }
   }
+}
+h1 {
+  font-size: 35px;
 }
 
 button:not(.default) {
