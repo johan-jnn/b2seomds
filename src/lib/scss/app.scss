@@ -1,12 +1,36 @@
+@use "./colors" as *;
+
+@font-face {
+  font-family: NotoSans;
+  src: url("/fonts/notosans_variable.ttf") format(truetype);
+}
+@font-face {
+  font-family: NotoSans;
+  font-style: italic;
+  src: url("/fonts/notosans_variable_italic.ttf") format(truetype);
+}
+
 *,
 ::before,
 ::after {
-  bottom: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   min-height: 100vh;
-  background-color: #255654;
+  background-color: $background;
+  color: $text;
+  font-family: NotoSans, sans-serif;
+}
+
+a {
+  color: inherit;
+  &:visited {
+    text-decoration-style: dotted;
+  }
+  &:hover {
+    text-decoration-style: wavy;
+  }
 }

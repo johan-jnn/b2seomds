@@ -3,7 +3,9 @@
 </script>
 
 <header>
-  <h2>{app.keyword}</h2>
+  <a href="/" title="Revenir sur la page d'accueil de {app.keyword}">
+    <img src="/logo_transp.webp" alt="Logo de l'agence web {app.keyword}" />
+  </a>
 
   <nav>
     <ul>
@@ -13,3 +15,25 @@
     </ul>
   </nav>
 </header>
+
+<style lang="scss">
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px 15px;
+    backdrop-filter: blur(15px);
+
+    > a,
+    img {
+      height: 100%;
+    }
+  }
+</style>

@@ -9,7 +9,8 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex({
 		layout: {
 			blog: "./src/lib/components/article_content.svelte"
-		}
+		},
+		extensions: [".md", ".svx"]
 	})],
 
 	kit: {
@@ -22,7 +23,7 @@ const config = {
 		}
 	},
 
-	extensions: ['.svelte', '.svx']
+	extensions: ['.svelte', '.svx', '.md']
 };
 
 export default config;
