@@ -9,7 +9,7 @@ tags:
   - OptimisationWeb
   - ConceptionDigitale
 author: Enzo DG.
-created: '2024-10-31'
+created: 2024-10-31
 ---
 
 ## Introduction
