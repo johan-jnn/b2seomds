@@ -1,10 +1,16 @@
+---
+  # Reset the layout (!! do not remove !!)
+  layout: _
+---
+
 <script lang="ts">
   export let data;
   import Article from "$lib/components/article.svelte";
-  console.log(data)
 </script>
 
+
 <svelte:head>
+  <title>Blog de notre agence b2seomds</title>
   <meta name="description" content="Découvrez de blog de notre agence web b2seomds !">
 </svelte:head>
 
