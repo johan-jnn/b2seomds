@@ -14,8 +14,6 @@ author: johan
 created: 2024-10-31
 ---
 
-%toc%
-
 Bienvenue chez **b2seomds**, une agence digitale basée au cœur de Lyon, spécialisée dans la conception d’interfaces web sur mesure et dans le référencement en ligne (SEO et SEA). Nous mettons notre expertise au service des entreprises, des collectivités et des associations, avec des clients prestigieux tels que **Decathlon** ou la **métropole de Lyon**. Que vous souhaitiez refondre votre site, améliorer votre visibilité ou booster votre activité en ligne, **b2seomds** est là pour vous accompagner à chaque étape.
 
 ---

@@ -19,12 +19,17 @@
 
 <style lang="scss">
   @use '$lib/scss/colors' as *;
+  $header-height: 75px;
+
+  :global(:root) {
+    scroll-padding-top: calc($header-height + 10px);
+  }
 
   header {
     position: sticky;
     top: 0;
     left: 0;
-    height: 75px;
+    height: $header-height;
     width: 100%;
 
     display: flex;
@@ -77,7 +82,7 @@
         left: 0;
         width: 100%;
         height: 50%;
-        
+
         > * {
           border-radius: 0 !important;
           height: 100% !important;

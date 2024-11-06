@@ -58,8 +58,6 @@ tags | OUI | `string[]` | Une liste de **mots**-clefs faisant écho au contenu d
 
 > D'autres clefs seront peut-être ajouté par la suite. Restez informé quand à cette documentation.
 
-A la suite des metadonnées de l'article, insérer une ligne dont le contenu est uniquement `%toc%`. Cela permettra d'insérer automatiquement un sommaire à l'article.
-
 #### Contenu de base
 
 Pour plus de simplicité, copiez-coller le code suivant avant de commencer à écrire les métadonnées et l'article :
@@ -75,8 +73,6 @@ tags:
 author: 
 created: 
 ---
-%toc%
-
 ```
 
 ### Contenu de l'article
