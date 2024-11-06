@@ -1,8 +1,0 @@
-# Contactez b2seomds
-
-## Prenez contact et venez nous rencontrer
-
-<form method="post" action="/message">
-  <!-- TODO -->
-</form>
-

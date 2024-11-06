@@ -6,11 +6,11 @@ Référencement sur le mot-clef "b2seomds"
 
 - remark-toc (table of content pour les articles)
 - Faire le contenu des différentes pages/composants:
-  - [ ] homepage
+  - [x] homepage
   - [ ] contact
   - [ ] header
   - [ ] footer
-  - [ ] article_content
+  - [x] article_content
 
 ## Documentation
 
@@ -57,6 +57,27 @@ created | NON | `ANNEE-MOIS-JOUR` | La date de création de l'article en format 
 tags | OUI | `string[]` | Une liste de **mots**-clefs faisant écho au contenu de l'article
 
 > D'autres clefs seront peut-être ajouté par la suite. Restez informé quand à cette documentation.
+
+A la suite des metadonnées de l'article, insérer une ligne dont le contenu est uniquement `%toc%`. Cela permettra d'insérer automatiquement un sommaire à l'article.
+
+#### Contenu de base
+
+Pour plus de simplicité, copiez-coller le code suivant avant de commencer à écrire les métadonnées et l'article :
+
+```svx
+---
+title: 
+description: 
+tags:
+  - 
+  - 
+  - 
+author: 
+created: 
+---
+%toc%
+
+```
 
 ### Contenu de l'article
 

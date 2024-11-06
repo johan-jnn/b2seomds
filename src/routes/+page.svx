@@ -57,11 +57,13 @@ Notre approche se base sur une **collaboration étroite** avec nos clients et un
 
 ## Ils nous font confiance
 
-- **Decathlon**
-- **Métropole de Lyon**
+- **Decathlon** ![Logo Décathlon](/imgs/decathlon.webp)
+
+- **Métropole de Lyon** ![logo Métropole de Lyon](/imgs/lyon.webp)
 - Associations et entreprises de divers secteurs
 
-*(Insérer une image montrant les logos de clients célèbres et de projets variés)*
+
+
 
 ---
 

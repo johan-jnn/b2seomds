@@ -2,18 +2,19 @@
 
 @font-face {
   font-family: NotoSans;
-  font-display: swap;
+  font-display: optional;
+  ascent-override: 75%;
   src:
     local('Noto Sans'),
-    url('/fonts/notosans_variable.ttf') format(truetype);
+    url('/fonts/notosans_variable.woff2') format(woff2);
 }
 @font-face {
   font-family: NotoSans;
   font-style: italic;
-  font-display: swap;
+  font-display: optional;
   src:
-    local('Noto Sans'),
-    url('/fonts/notosans_variable_italic.ttf') format(truetype);
+    local('Noto Sans Italic'),
+    url('/fonts/notosans_variable_italic.woff2') format(woff2);
 }
 
 *,
@@ -44,15 +45,56 @@ a {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 75px 15px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-position: inside;
+  > li {
+    margin: 15px 0;
+  }
+  &:has(img) {
+    list-style: none;
+  }
 }
 
 @for $i from 1 to 7 {
   h#{$i} {
     margin: calc(20px - #{$i} * 2px) 0;
+    @if $i > 1 {
+      font-size: calc(35px - $i * 2px);
+    }
   }
+}
+h1 {
+  font-size: 35px;
+}
+
+button:not(.default) {
+  padding: 10px 15px;
+  border-radius: 999px;
+  background-color: $solid;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+  &:hover {
+    box-shadow: 0 2.5px 10px rgba($color: $solid, $alpha: 0.45);
+  }
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.toc {
+  ol,
+  ul {
+    margin-left: 10px;
+  }
+}
+
+img {
+  max-width: 75vw;
 }

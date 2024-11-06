@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '$lib/components/footer.svelte';
   import Header from '$lib/components/header.svelte';
   import '$lib/scss/app.scss';
 </script>
@@ -7,14 +8,14 @@
   <link
     rel="preload"
     as="font"
-    href="/fonts/notosans_variable.ttf"
+    href="/fonts/notosans_variable.woff2"
     type="font/ttf"
     crossorigin="anonymous"
   />
   <link
     rel="preload"
     as="font"
-    href="/fonts/notosans_variable_italic.ttf"
+    href="/fonts/notosans_variable_italic.woff2"
     type="font/ttf"
     crossorigin="anonymous"
   />
@@ -26,3 +27,5 @@
 <main>
   <slot />
 </main>
+
+<Footer />
