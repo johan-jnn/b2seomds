@@ -1,6 +1,6 @@
 <header>
   <a href="/" title="Revenir sur la page d'accueil de b2seomds">
-    <img src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" />
+    <img src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" width="100%" height="100%" />
   </a>
 
   <nav>
@@ -41,7 +41,8 @@
 
     > a,
     img {
-      height: 100%;
+      height: 100% !important;
+      width: unset !important;
     }
 
     > nav {
