@@ -8,11 +8,9 @@ tags:
   - b2seomds
   - OptimisationWeb
   - ConceptionDigitale
-author: Enzo DG.
+author: enzo
 created: 2024-10-31
 ---
-
-%toc%
 
 ## Introduction
 

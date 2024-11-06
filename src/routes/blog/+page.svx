@@ -1,6 +1,7 @@
 <script lang="ts">
   export let data;
   import Article from "$lib/components/article.svelte";
+  console.log(data)
 </script>
 
 <svelte:head>

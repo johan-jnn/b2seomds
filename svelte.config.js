@@ -4,6 +4,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import autoprefixer from 'autoprefixer';
 import rehypeSlug from 'rehype-slug';
 import { toc } from "rehype-toc";
+import rehypeExternalLinks from 'rehype-external-links';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -20,7 +21,10 @@ const config = {
 		extensions: [".md", ".svx"],
 		rehypePlugins: [
 			rehypeSlug,
-			toc
+			toc,
+			[rehypeExternalLinks, {
+				target: "_blank"
+			}]
 		],
 	})],
 
