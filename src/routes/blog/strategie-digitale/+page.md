@@ -64,7 +64,7 @@ En collaborant avec **b2seomds**, vous bénéficiez de plusieurs atouts :
 - Des **solutions personnalisées** adaptées à vos besoins spécifiques.
 - Un accompagnement complet, de la conception de votre site au suivi de vos campagnes publicitaires.
 
-Vous pouvez consulter nos réalisations sur notre [portefeuille de projets](/portefolio). Inspirez-vous des succès de nos clients !
+Vous pouvez consulter nos réalisations sur notre [portefeuille de projets](/portfolio). Inspirez-vous des succès de nos clients !
 
 ---
 
