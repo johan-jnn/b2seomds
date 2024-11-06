@@ -11,7 +11,7 @@ tags:
   - design
   - réferencement
 author: johan
-created: '2024-10-31'
+created: 2024-10-31
 ---
 
 %toc%
