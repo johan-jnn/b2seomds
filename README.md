@@ -7,8 +7,8 @@ Référencement sur le mot-clef "b2seomds"
 - remark-toc (table of content pour les articles)
 - Faire le contenu des différentes pages/composants:
   - [x] homepage
-  - [ ] contact
-  - [ ] header
+  - [x] contact
+  - [x] header
   - [ ] footer
   - [x] article_content
 
