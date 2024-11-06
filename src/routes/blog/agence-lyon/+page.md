@@ -1,5 +1,5 @@
 ---
-title: "Découvrez b2seomds : votre partenaire digital de confiance à Lyon"
+title: 'Découvrez b2seomds : votre partenaire digital de confiance à Lyon'
 description: Bienvenue chez b2seomds, une agence digitale basée au cœur de Lyon, spécialisée dans la conception d’interfaces web sur mesure et dans le référencement en ligne (SEO et SEA)
 category: Agence digitale
 tags:
@@ -11,7 +11,7 @@ tags:
   - design
   - réferencement
 author: johan
-created: 2024-10-31
+created: '2024-10-31'
 ---
 
 %toc%
