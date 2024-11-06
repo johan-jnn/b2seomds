@@ -2,8 +2,8 @@ import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import autoprefixer from 'autoprefixer';
-import { remarkTableOfContents } from "remark-table-of-contents"
-import remarkHeadingId from 'remark-heading-id';
+import rehypeSlug from 'rehype-slug';
+import { toc } from "rehype-toc";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -18,19 +18,10 @@ const config = {
 			blog: "./src/lib/components/article_content.svelte"
 		},
 		extensions: [".md", ".svx"],
-		remarkPlugins: [
-			[remarkHeadingId, {
-				defaults: true
-			}],
-			[remarkTableOfContents, {
-				mdx: false,
-				isListOrdered: true,
-				navAttributes: {
-					'aria-label': 'table of contents',
-					class: "toc"
-				}
-			}], 
-		]
+		rehypePlugins: [
+			rehypeSlug,
+			toc
+		],
 	})],
 
 	kit: {
