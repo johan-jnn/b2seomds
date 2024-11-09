@@ -10,7 +10,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "postbuild": "npx svelte-sitemap -d https://b2seomds.netlify.app -r -i google090e0b13c90a6979.html -c weekly"
+    "postbuild": "npx svelte-sitemap -d https://b2seomds.netlify.app -i google090e0b13c90a6979.html -c weekly"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.3.1",
