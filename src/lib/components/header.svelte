@@ -10,7 +10,6 @@
 
   <nav>
     <ul>
-      <li><a href="/">Homepage</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/portfolio">Projets</a></li>
       <li><a href="/contact">Contact</a></li>

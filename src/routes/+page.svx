@@ -6,6 +6,11 @@
   />
 </svelte:head>
 
+<script>
+  export let data;
+  import Article from "$lib/components/article.svelte";
+</script>
+
 # Bienvenue chez **b2seomds**
 
 ## Création d'Interfaces Web et Stratégies de Référencement
@@ -62,8 +67,13 @@ Notre approche se base sur une **collaboration étroite** avec nos clients et un
 - **Métropole de Lyon** ![logo Métropole de Lyon](/imgs/lyon.webp)
 - Associations et entreprises de divers secteurs
 
+---
 
+## Dernier article de blog
 
+Découvrez notre tous dernier article de blog :
+
+<Article data={data.latestArticle.metadata} url={data.latestArticle.url}/>
 
 ---
 

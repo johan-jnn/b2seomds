@@ -18,7 +18,8 @@
     </li>
   </ul>
 
-  <a class="blog" href="/blog">Découvrez les blogs de <strong>b2seomds</strong> juste ici !</a>
+  <a href="/blog">Découvrez les blogs de <strong>b2seomds</strong> juste ici !</a>
+  <a href="/mentions">Mentions légales et informations sur le site</a>
 </footer>
 
 <style lang="scss">
@@ -58,11 +59,12 @@
       }
     }
 
-    .blog {
+    > a {
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
+      margin: 10px 0;
     }
   }
 </style>

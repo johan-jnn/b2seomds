@@ -1,0 +1,41 @@
+# Mentions légales
+
+## Préambule
+
+Cheh à vous la classe de B2 nous vous avons bien démoli.
+Mais oui en effet les CMS c'est mieux que le code... OUIIIIIIIIIIIIIIIIII
+
+Bref la bise **ez gg wp noob**
+
+## Informations
+
+Ce site est le fruit d'un travail de 3 étudiants en digital, réalisé dans le cadre d'un challenge proposé par notre professeur de marketing.
+Le but était de développer un site et de le référencer au mieux possible sur le mot-clef `b2seomds`.
+
+### Ecole
+
+My digital school (Lyon)
+
+### Etudiant
+
+Johan, Enzo, Alexis
+Etudiant en B2-dev durant l'année 2024 - 2025
+
+### Hebergeur
+
+Netlify
+
+### Stacks
+
+- Sveltekit + Mdsvex
+- Typescript
+- SASS
+- ChatGPT (pour la rédaction des contenus de blog)
+
+---
+
+## Code source
+
+Le code de ce projet est publique. Vous pouvez le retrouver sur le repository Github ci-dessous.
+
+[Accéder au repo Github](https://www.youtube.com/watch?v=QDia3e12czc)
