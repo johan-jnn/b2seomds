@@ -1,7 +1,7 @@
 ---
 title: Création de Contenus Vidéo et Visuels
-description: 
-Découvrez comment l’agence **b2seomds** utilise les vidéos et les visuels pour capter l'attention des internautes, augmenter le temps passé sur votre site et améliorer votre SEO. Infographies, vidéos explicatives et stratégies créatives sont au cœur de cette approche pour optimiser votre présence en ligne.
+description: "
+Découvrez comment l’agence b2seomds utilise les vidéos et les visuels pour capter l'attention des internautes, augmenter le temps passé sur votre site et améliorer votre SEO. Infographies, vidéos explicatives et stratégies créatives sont au cœur de cette approche pour optimiser votre présence en ligne."
 tags:
   - SEO
   - VidéoMarketing
@@ -9,7 +9,7 @@ tags:
   - EngagementUtilisateur
   - AgenceWebb2seomds
 author: alexis
-created: 2024-10-30
+created: 2024-11-27
 ---
 
 ## Création de Contenus Vidéo et Visuels : Attirez et Retenez l’Attention avec **b2seomds**
