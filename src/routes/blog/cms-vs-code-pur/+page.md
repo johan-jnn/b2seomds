@@ -1,6 +1,7 @@
 ---
 title: 'CMS ou Code Pur : Que Choisir pour Votre Site Web ?'
 description: 'Découvrez les différences entre un CMS et le développement en code pur, les avantages et inconvénients de chaque approche, et faites un choix éclairé pour créer un site web adapté à vos besoins.'
+category: cms
 tags:
   - CMS
   - Développement Web
@@ -12,6 +13,7 @@ tags:
   - Personnalisation Web
   - Performances Web
   - Comparatif Tech
+  - Cybersécurité
 author: 'johan'
 created: 2024-11-06
 ---

@@ -1,6 +1,7 @@
 ---
 title: 'Comment sécuriser efficacement votre site web ?'
 description: 'Découvrez les étapes essentielles pour protéger votre site web contre les cyberattaques et garantir la sécurité des données de vos utilisateurs.'
+category: DevOps
 tags:
   - Sécurité web
   - Protéger son site
@@ -14,6 +15,8 @@ tags:
   - Authentification 2FA
   - Protection des données
   - Sécurité informatique
+  - CollaborationWeb
+  - AgenceWebb2seomds
 author: johan
 created: 2024-11-21
 ---

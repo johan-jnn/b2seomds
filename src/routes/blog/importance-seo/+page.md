@@ -1,6 +1,7 @@
 ---
 title: "L'Importance du Référencement SEO pour une Agence Web comme b2seomds"
 description: 'Découvrez pourquoi le SEO est un levier indispensable pour les agences web et leurs clients'
+category: SEO
 tags:
   - SEO
   - AgenceWeb

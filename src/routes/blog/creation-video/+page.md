@@ -1,5 +1,6 @@
 ---
 title: Création de Contenus Vidéo et Visuels
+category: Vidéo
 description: "
 Découvrez comment l’agence b2seomds utilise les vidéos et les visuels pour capter l'attention des internautes, augmenter le temps passé sur votre site et améliorer votre SEO. Infographies, vidéos explicatives et stratégies créatives sont au cœur de cette approche pour optimiser votre présence en ligne."
 tags:

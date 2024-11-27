@@ -1,6 +1,7 @@
 ---
 title: 'Les Avantages de Collaborer avec une Agence Web comme b2seomds'
 description: Un aperçu des bénéfices qu'une agence web peut apporter à votre entreprise pour réussir en ligne
+category: Agence digitale
 tags:
   - AgenceWeb
   - CollaborationWeb

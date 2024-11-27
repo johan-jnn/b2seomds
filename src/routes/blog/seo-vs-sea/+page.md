@@ -1,6 +1,7 @@
 ---
 title: 'SEO vs SEA : Quelle Stratégie Choisir pour Booster Votre Visibilité en Ligne'
 description: 'Découvrez les différences entre le SEO et le SEA, leurs avantages, inconvénients et comment choisir la meilleure stratégie pour améliorer la visibilité de votre site web.'
+category: Référencement
 tags:
   - SEO
   - SEA

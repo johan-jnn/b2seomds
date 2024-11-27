@@ -15,7 +15,9 @@
 
 ## Création d'Interfaces Web et Stratégies de Référencement
 
-Chez **b2seomds**, nous concevons des interfaces web sur mesure pour des entreprises de toutes tailles, que ce soit pour des marques de renom comme *Decathlon*, des institutions publiques telles que *la Métropole de Lyon*, ou de nombreuses associations engagées dans des missions variées. Notre mission est d’offrir des solutions numériques performantes et adaptées aux besoins spécifiques de chaque client, tout en renforçant leur visibilité sur le web.
+Chez **b2seomds**, nous concevons des interfaces web sur mesure pour des entreprises de toutes tailles, que ce soit pour des marques de renom comme *Decathlon*, des institutions publiques telles que *la Métropole de Lyon*, ou de nombreuses associations engagées dans des missions variées. 
+
+Notre mission est d’offrir des solutions numériques performantes et adaptées aux besoins spécifiques de chaque client, tout en renforçant leur visibilité sur le web.
 
 ---
 

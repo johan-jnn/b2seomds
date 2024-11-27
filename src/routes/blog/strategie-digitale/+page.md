@@ -1,6 +1,7 @@
 ---
 title: 'Pourquoi une stratégie digitale complète est essentielle pour votre entreprise ?'
 description: "Découvrez comment une stratégie digitale combinant conception web, SEO et SEA peut transformer la visibilité et les performances de votre entreprise en ligne grâce à l'expertise de b2seomds."
+category: Référencement
 tags:
   - Stratégie digitale
   - SEO

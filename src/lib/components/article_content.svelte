@@ -1,7 +1,7 @@
 <script lang="ts">
   // Ce fichier englobe tous les articles
 
-  import { type ArticleProps } from '$lib/server/articles';
+  import { type ArticleProps, type Article as ArticleType } from '$lib/server/articles';
   import authors from '$lib/data/authors.json';
   import type { PageData } from '../../routes/$types';
   import Article from './article.svelte';
@@ -16,11 +16,18 @@
   const author_data = author in authors ? authors[author as keyof typeof authors] : null;
   export let data: PageData;
 
+  function isSimilarArticle({ metadata }: ArticleType) {
+    if (metadata.title === title) return false;
+    return (
+      metadata.category === category ||
+      (metadata.tags?.filter((tag) => tags?.includes(tag)).length || 0) >= 1
+    );
+  }
   /**
    * A list of featured article (maximum 3)
    */
   const featured_articles = data.articles
-    .filter((article) => article.metadata.title !== title)
+    .filter(isSimilarArticle)
     .sort(() => Math.random() - 0.5)
     .slice(undefined, 3);
 </script>

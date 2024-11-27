@@ -20,8 +20,8 @@ Référencement sur le mot-clef "b2seomds"
 Rendez-vous dans le dossier `blog` (`/src/routes/blog`), et créez un dossier qui correspondra à l'url de l'article.
 Dans ce dossier, créez un fichier ayant un des noms ci-dessous :
 
-- `+page.md` (*Pas de support de composants*)
-- `+page.svx` (*Pas de support d'ESLint*)
+- `+page.md` (_Pas de support de composants_)
+- `+page.svx` (_Pas de support d'ESLint_)
 
 Cette page correspondra au contenu de l'article.
 En en-tête de cette page pour pourrez inscrire les propriétés de l'article :
@@ -34,7 +34,6 @@ liste:
   - val2
   - val3
 ---
-
 # Le contenu de l'article
 
 Lorem ipsum dolor sit amet
@@ -42,14 +41,14 @@ Lorem ipsum dolor sit amet
 
 Voici les valeurs à inscrire :
 
-clef | optionnelle | type | correspondance
----|---|---|---
-title | NON | `string` | Le titre de l'article
-category | NON | `string` | La catégorie de l'article
-description | NON | `string` | Une courte description/résumé de l'article
-author | NON | `keyof: authors` | Le nom de l'auteur de l'article. Prendre une des clefs du fichier `authors.json` (`/src/lib/data/authors.json`)
-created | NON | `ANNEE-MOIS-JOUR` | La date de création de l'article en format *ISO8601* (exemple: `2024-03-30`)
-tags | OUI | `string[]` | Une liste de **mots**-clefs faisant écho au contenu de l'article
+| clef        | optionnelle | type              | correspondance                                                                                                  |
+| ----------- | ----------- | ----------------- | --------------------------------------------------------------------------------------------------------------- |
+| title       | NON         | `string`          | Le titre de l'article                                                                                           |
+| category    | NON         | `string`          | La catégorie de l'article                                                                                       |
+| description | NON         | `string`          | Une courte description/résumé de l'article                                                                      |
+| author      | NON         | `keyof: authors`  | Le nom de l'auteur de l'article. Prendre une des clefs du fichier `authors.json` (`/src/lib/data/authors.json`) |
+| created     | NON         | `ANNEE-MOIS-JOUR` | La date de création de l'article en format _ISO8601_ (exemple: `2024-03-30`)                                    |
+| tags        | OUI         | `string[]`        | Une liste de **mots**-clefs faisant écho au contenu de l'article                                                |
 
 > D'autres clefs seront peut-être ajouté par la suite. Restez informé quand à cette documentation.
 
@@ -59,14 +58,15 @@ Pour plus de simplicité, copiez-coller le code suivant avant de commencer à é
 
 ```svx
 ---
-title: 
-description: 
+title:
+description:
+category:
 tags:
-  - 
-  - 
-  - 
-author: 
-created: 
+  -
+  -
+  -
+author:
+created:
 ---
 ```
 
@@ -79,13 +79,10 @@ Ne pas inclure le titre de l'article au début du fichier car celui-ci sera auto
 ```yaml
 ---
 title: Mon titre
-...
 ---
-
 # Mon titre
 
 Exemple à ne pas reproduire (dans la page finale il y aura 2 titres de niveau 1 ce qui n'est pas optimal en terme de SEO)
-
 ```
 
 Pour insérer des images, 2 choix s'offrent à vous :

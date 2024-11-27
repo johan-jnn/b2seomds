@@ -1,6 +1,7 @@
 ---
 title: 'Création de Site Internet : L’Expertise de b2seomds'
 description: Un guide complet sur la création de sites internet optimisés pour une visibilité maximale
+category: Agence digitale
 tags:
   - CréationDeSiteInternet
   - AgenceWeb
