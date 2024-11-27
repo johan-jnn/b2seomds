@@ -3,6 +3,8 @@
 
   import { type ArticleProps } from '$lib/server/articles';
   import authors from '$lib/data/authors.json';
+  import type { PageData } from '../../routes/$types';
+  import Article from './article.svelte';
   export let title: ArticleProps['title'];
   export let description: ArticleProps['description'];
   export let tags: ArticleProps['tags'];
@@ -12,6 +14,15 @@
   export let category: ArticleProps['category'];
 
   const author_data = author in authors ? authors[author as keyof typeof authors] : null;
+  export let data: PageData;
+
+  /**
+   * A list of featured article (maximum 3)
+   */
+  const featured_articles = data.articles
+    .filter((article) => article.metadata.title !== title)
+    .sort(() => Math.random() - 0.5)
+    .slice(undefined, 3);
 </script>
 
 <svelte:head>
@@ -45,3 +56,18 @@
 <article>
   <slot />
 </article>
+
+<!-- Le [if] ci-dessous ne devrait normalement jamais être faux, mais on ne sait jamais -->
+{#if featured_articles.length}
+  <footer>
+    <h2>Envie de lire d'autres articles ?</h2>
+    <p>N'hésitez pas à lire notre sélection d'articles qui pourrait sûrement vous intéresser :</p>
+    <ul>
+      {#each featured_articles as article (article.id)}
+        <li id={article.id}>
+          <Article data={article.metadata} url={article.url} />
+        </li>
+      {/each}
+    </ul>
+  </footer>
+{/if}

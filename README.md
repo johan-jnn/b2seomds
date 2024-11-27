@@ -4,13 +4,8 @@ Référencement sur le mot-clef "b2seomds"
 
 ## TODO
 
-- remark-toc (table of content pour les articles)
-- Faire le contenu des différentes pages/composants:
-  - [x] homepage
-  - [x] contact
-  - [x] header
-  - [ ] footer
-  - [x] article_content
+- Ecrire et rajouter des articles
+- Page `portfolio`
 
 ## Documentation
 

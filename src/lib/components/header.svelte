@@ -1,19 +1,24 @@
 <header>
   <a href="/" title="Revenir sur la page d'accueil de b2seomds">
-    <img src="/logo/logo_transp_75.webp" alt="Logo de l'agence web b2seomds" />
+    <img
+      src="/logo/logo_transp_75.webp"
+      alt="Logo de l'agence web b2seomds"
+      width="100%"
+      height="100%"
+    />
   </a>
 
   <nav>
     <ul>
-      <li><a href="/">Homepage</a></li>
       <li><a href="/blog">Blog</a></li>
+      <li><a href="/portfolio">Projets</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
 
   <form action="/search" method="get">
     <button type="submit" class="default" title="Valider la recherche">🔍</button>
-    <input type="search" name="q" id="query" placeholder="Rechercher sur notre site web" />
+    <input type="search" name="q" id="query" required placeholder="Rechercher sur notre site web" />
   </form>
 </header>
 
@@ -22,7 +27,8 @@
   $header-height: 75px;
 
   :global(:root) {
-    scroll-padding-top: calc($header-height + 10px);
+    --scroll-padding: 10px;
+    scroll-padding-top: calc($header-height + var(--scroll-padding));
   }
 
   header {
@@ -41,7 +47,8 @@
 
     > a,
     img {
-      height: 100%;
+      height: 100% !important;
+      width: unset !important;
     }
 
     > nav {
@@ -82,6 +89,9 @@
         left: 0;
         width: 100%;
         height: 50%;
+        @at-root :global(:root) {
+          --scroll-padding: 40px;
+        }
 
         > * {
           border-radius: 0 !important;

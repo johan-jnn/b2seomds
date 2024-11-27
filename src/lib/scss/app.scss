@@ -34,11 +34,13 @@ body {
 
 a {
   color: inherit;
+  transition: 0.15s;
   &:visited {
-    text-decoration-style: dotted;
+    text-decoration-style: double;
   }
   &:hover {
-    text-decoration-style: wavy;
+    text-decoration-color: $interaction;
+    text-decoration-style: dotted;
   }
 }
 

@@ -58,7 +58,7 @@ Enfin, il est essentiel de mesurer les **performances SEO** pour ajuster la stra
 
 ---
 
-### Conclusion
+## Conclusion
 
 Optimiser son **site** pour le **SEO** est un travail de longue haleine qui requiert des **compétences** et des **connaissances techniques** approfondies. L’agence **b2seomds** se tient à vos côtés pour déployer ces **10 stratégies** avec efficacité et professionnalisme, vous aidant ainsi à atteindre vos objectifs de **visibilité**. En appliquant ces conseils et en restant à l'affût des tendances **SEO**, vous donnez à votre **site** toutes les chances de dominer les **résultats de recherche** et d'attirer des **clients qualifiés**.
 

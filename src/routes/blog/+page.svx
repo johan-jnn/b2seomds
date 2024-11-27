@@ -1,23 +1,29 @@
+---
+  # Reset the layout (!! do not remove !!)
+  layout: _
+---
+
 <script lang="ts">
   export let data;
   import Article from "$lib/components/article.svelte";
-  console.log(data)
 </script>
 
+
 <svelte:head>
+  <title>Blog de notre agence b2seomds</title>
   <meta name="description" content="Découvrez de blog de notre agence web b2seomds !">
 </svelte:head>
 
 # Blog de **b2seomds** : Votre source d’expertise en digital et référencement
 
-Bienvenue sur le blog de **b2seomds** ! Découvrez nos articles, guides et études de cas pour booster la visibilité de votre entreprise sur le web. Que vous soyez une grande entreprise ou une association locale, nous vous proposons des conseils pratiques pour améliorer votre stratégie digitale, de la création d'interfaces web au référencement sur Google. 📈
+Bienvenue sur le blog de **b2seomds** ! Découvrez nos {data.articles.length} articles, guides et études de cas pour booster la visibilité de votre entreprise sur le web. Que vous soyez une grande entreprise ou une association locale, nous vous proposons des conseils pratiques pour améliorer votre stratégie digitale, de la création d'interfaces web au référencement sur Google. 📈
 
 ---
 
 ## Articles récents
 
 <ol>
-  {#each data.articles as article (article.id)}
+  {#each data.blog.latest as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
@@ -42,7 +48,7 @@ Organisez vos lectures par thème selon vos intérêts et besoins ! 📚 Retrouv
 Découvrez les contenus plébiscités par nos lecteurs ⭐️ :
 
 <ul>
-  {#each data.articles.slice(-3) as article (article.id)}
+  {#each data.blog.bestOf as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
@@ -58,7 +64,7 @@ Pour des recommandations encore plus pertinentes, nous avons segmenté nos artic
 ### SEO
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("seo")) as article (article.id)}
+  {#each data.blog.byTags("seo") as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
@@ -68,17 +74,17 @@ Pour des recommandations encore plus pertinentes, nous avons segmenté nos artic
 ### SEA
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("sea")) as article (article.id)}
+  {#each data.blog.byTags("sea") as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
   {/each}
 </ol>
 
-### Design
+### Cybersécurité
 
 <ol>
-  {#each data.articles.filter(({metadata}) => metadata.tags?.includes("design")) as article (article.id)}
+  {#each data.blog.byTags("cybersécurité") as article (article.id)}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url}/>
     </li>
