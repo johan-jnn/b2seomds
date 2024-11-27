@@ -3,6 +3,7 @@ import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import autoprefixer from 'autoprefixer';
 import rehypeSlug from 'rehype-slug';
+import rehypeImgSize from 'rehype-img-size';
 import { toc } from "rehype-toc";
 import rehypeExternalLinks from 'rehype-external-links';
 
@@ -22,6 +23,9 @@ const config = {
 		rehypePlugins: [
 			rehypeSlug,
 			toc,
+			[rehypeImgSize, {
+				dir: "./static/"
+			}],
 			[rehypeExternalLinks, {
 				target: "_blank"
 			}]

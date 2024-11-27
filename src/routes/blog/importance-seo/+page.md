@@ -25,7 +25,7 @@ Le SEO, ou Search Engine Optimization, regroupe les techniques permettant à un 
 - Améliorer la visibilité des clients.
 - Maximiser le retour sur investissement grâce à une stratégie digitale durable.
 
-[En savoir plus sur l'importance du SEO avec cet article de Search Engine Land](https://searchengineland.com/guide/what-is-seo).
+[En savoir plus sur l'importance du SEO](/blog/strategie-seo).
 
 ## Les Pratiques SEO Utilisées par b2seomds
 
@@ -39,7 +39,7 @@ Le SEO, ou Search Engine Optimization, regroupe les techniques permettant à un 
    Chez **b2seomds**, nous savons que le contenu est roi. Nous produisons des articles, vidéos et infographies qui non seulement attirent les visiteurs, mais renforcent également la crédibilité de votre marque. [Explorez nos exemples de contenus](/).
 
 4. **Stratégies de Netlinking**
-   Les liens externes de qualité sont cruciaux pour renforcer l’autorité d’un site. **b2seomds** met en œuvre des stratégies de netlinking efficaces, tout en évitant les pratiques pouvant nuire au classement. [Apprenez-en plus sur le netlinking avec cet article de Moz](https://moz.com/learn/seo/backlinks).
+   Les liens externes de qualité sont cruciaux pour renforcer l’autorité d’un site. **b2seomds** met en œuvre des stratégies de netlinking efficaces, tout en évitant les pratiques pouvant nuire au classement.
 
 5. **Suivi et Optimisation Continue**
    Le SEO est un processus évolutif. Nous suivons les performances de votre site et adaptons la stratégie en fonction des changements dans les algorithmes de recherche et des nouvelles tendances du marché. [Contactez-nous pour un suivi SEO personnalisé](/contact).

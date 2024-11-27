@@ -27,7 +27,7 @@ Une agence web possède une équipe de professionnels qualifiés dans divers dom
    La création ou refonte de sites internet est au cœur des services d’une agence web. **b2seomds** conçoit des sites modernes et réactifs, conçus pour attirer et retenir les visiteurs. [Consultez nos réalisations](/) pour découvrir quelques exemples de projets menés avec succès.
 
 2. **Optimisation SEO et Référencement**  
-   Un site web n’a de valeur que s’il est visible sur les moteurs de recherche. **b2seomds** implémente les meilleures pratiques SEO pour assurer un bon positionnement de votre site sur Google et attirer des visiteurs qualifiés. [Découvrez les avantages du SEO avec Moz](https://moz.com/beginners-guide-to-seo) pour en savoir plus sur son importance.
+   Un site web n’a de valeur que s’il est visible sur les moteurs de recherche. **b2seomds** implémente les meilleures pratiques SEO pour assurer un bon positionnement de votre site sur Google et attirer des visiteurs qualifiés. [Découvrez les avantages du SEO sur cet article](/blog/strategie-seo) pour en savoir plus sur son importance.
 
 3. **Marketing Digital et Publicité en Ligne**  
    En plus du SEO, le marketing digital inclut des campagnes publicitaires sur Google et les réseaux sociaux. Grâce à **b2seomds**, vous pouvez augmenter votre visibilité et maximiser votre retour sur investissement grâce à des campagnes ciblées et bien gérées. [Découvrez notre approche marketing](/contact) pour un service sur mesure.

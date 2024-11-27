@@ -97,8 +97,11 @@ hr {
   }
 }
 
-img {
-  max-width: 75vw;
+img:is(p > *) {
+  max-width: 75%;
+  height: auto;
+  margin: 25px auto;
+  display: block;
 }
 
 p {

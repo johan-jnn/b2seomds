@@ -38,7 +38,7 @@ Sécuriser votre site est donc un investissement crucial pour protéger vos acti
 
 ---
 
-## 1. Passez votre site en HTTPS 🌐
+## Passez votre site en HTTPS 🌐
 
 ![Un cadenas vert dans une barre d'adresse web, représentant le protocole HTTPS sécurisé.](/imgs/blog/securisation.webp)
 
@@ -53,7 +53,7 @@ Installez un certificat SSL sur votre site. Il existe des solutions gratuites co
 
 ---
 
-## 2. Mettez régulièrement à jour votre site 🔄
+## Mettez régulièrement à jour votre site 🔄
 
 Que vous utilisiez un CMS comme WordPress ou une solution sur mesure, les mises à jour sont indispensables.
 
@@ -67,7 +67,7 @@ Que vous utilisiez un CMS comme WordPress ou une solution sur mesure, les mises 
 
 ---
 
-## 3. Renforcez vos mots de passe 🔑
+## Renforcez vos mots de passe 🔑
 
 Un mot de passe faible est l’une des principales causes de piratage.
 
@@ -77,7 +77,7 @@ Un mot de passe faible est l’une des principales causes de piratage.
 
 ---
 
-## 4. Configurez un pare-feu (WAF) 🛡️
+## Configurez un pare-feu (WAF) 🛡️
 
 Un **pare-feu pour applications web** (Web Application Firewall ou WAF) analyse et filtre le trafic de votre site en temps réel pour bloquer les menaces courantes.
 
@@ -88,7 +88,7 @@ Un **pare-feu pour applications web** (Web Application Firewall ou WAF) analyse 
 
 ---
 
-## 5. Sauvegardez régulièrement vos données 📂
+## Sauvegardez régulièrement vos données 📂
 
 ![Une icône de sauvegarde cloud, représentant la protection des données par des sauvegardes régulières.](/imgs/blog/sauvegarde.webp)
 
@@ -104,7 +104,7 @@ Même avec les meilleures mesures de sécurité, le risque zéro n’existe pas.
 
 ---
 
-## 6. Installez un scanner de sécurité 🔍
+## Installez un scanner de sécurité 🔍
 
 Un scanner de sécurité identifie les vulnérabilités sur votre site. Ces outils vous aident à détecter les fichiers infectés ou les comportements suspects.
 
@@ -116,7 +116,7 @@ Un scanner de sécurité identifie les vulnérabilités sur votre site. Ces outi
 
 ---
 
-## 7. Protégez vos pages de connexion 🔒
+## Protégez vos pages de connexion 🔒
 
 Les pages de connexion sont des cibles privilégiées pour les attaques par force brute.
 
@@ -128,7 +128,7 @@ Les pages de connexion sont des cibles privilégiées pour les attaques par forc
 
 ---
 
-## 8. Éduquez votre équipe 👩‍💻👨‍💻
+## Éduquez votre équipe 👩‍💻👨‍💻
 
 La sécurité passe aussi par vos collaborateurs. Sensibilisez votre équipe aux bonnes pratiques :
 
