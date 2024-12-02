@@ -10,7 +10,6 @@
   export let tags: ArticleProps['tags'];
   export let author: ArticleProps['author'];
   export let created: ArticleProps['created'];
-
   export let category: ArticleProps['category'];
 
   const author_data = author in authors ? authors[author as keyof typeof authors] : null;
@@ -58,6 +57,16 @@
 
 <header>
   <h1>{title}</h1>
+  <ul class="tags">
+    {#each Object.entries( { Catégorie: category, 'Date de publication': new Date(created).toLocaleDateString(), Auteur: `${author_data?.first_name} ${author_data?.last_name}` } ) as [label, content] (label)}
+      <li>
+        <span class="label">{label}</span>
+        <p>
+          {content}
+        </p>
+      </li>
+    {/each}
+  </ul>
 </header>
 
 <article>
@@ -78,3 +87,35 @@
     </ul>
   </footer>
 {/if}
+
+<style lang="scss">
+  .tags {
+    margin: 15px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    list-style: none;
+
+    > li {
+      padding: 10px 20px;
+      border: dashed 1px;
+      border-radius: 999px;
+      text-align: center;
+      margin: 0;
+
+      > span {
+        font-size: 0.75em;
+        opacity: 0.75;
+        font-style: italic;
+        margin-bottom: 0.25em;
+        display: block;
+      }
+      > p {
+        margin: 0;
+      }
+    }
+  }
+</style>

@@ -103,7 +103,7 @@ Dans votre fichier, copiez-coller le code suivant juste après les métadonnées
 A partir de ce code remplacez `<nom>` par un nom unique que vous donnerez à votre image, et `<source>` par le chemin d'accès de votre image.
 Puis dans votre article utilisez l'image de la manière suivante :
 
-```svx
+```md
 <!-- ... -->
 
 ![Texte alternatif de l'image (alt)]({<nom>})

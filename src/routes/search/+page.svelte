@@ -22,7 +22,7 @@
 </h2>
 
 <ul>
-  {#each data.articles.sort(() => Math.random() - 0.5) as article}
+  {#each data.found as article}
     <li id={article.id}>
       <Article data={article.metadata} url={article.url} />
     </li>

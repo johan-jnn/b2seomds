@@ -1,6 +1,7 @@
 ---
 title: "L'Impact des Réseaux Sociaux sur le SEO : Le Guide de b2seomds"
 description: "Découvrez comment les réseaux sociaux influencent le référencement naturel et boostent la visibilité de votre site web"
+category: SEO
 tags:
   - SEO
   - RéseauxSociaux
