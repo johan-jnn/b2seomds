@@ -45,6 +45,8 @@
     padding: 5px 15px;
     backdrop-filter: blur(15px);
 
+    z-index: 20;
+
     > a,
     img {
       height: 100% !important;

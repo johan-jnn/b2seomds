@@ -57,7 +57,7 @@
   />
   <meta property="og:site_name" content="b2seomds" />
 
-  {@html webManifestLink}
+  {@html webManifestLink?.replace('./', '/')}
 </svelte:head>
 
 <Header />
