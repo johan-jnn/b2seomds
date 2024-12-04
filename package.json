@@ -13,7 +13,7 @@
     "generate-pwa-assets": "pwa-assets-generator",
     "postbuild": "npm run transfer_prerender && npm run gen_sitemap",
     "transfer_prerender": "cp -r .svelte-kit/output/prerendered build",
-    "gen_sitemap": "npx svelte-sitemap -d https://cheh.johan-janin.com -i google090e0b13c90a6979.html -c weekly"
+    "gen_sitemap": "npx svelte-sitemap -d https://cheh.johan-janin.com -i google090e0b13c90a6979.html -i prerendered -c weekly"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.3.1",
