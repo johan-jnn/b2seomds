@@ -8,14 +8,12 @@ export default defineConfig({
     SvelteKitPWA({
       strategies: 'generateSW',
       minify: true,
-      kit: {},
       srcDir: './src',
-      devOptions: {
-        enabled: true,
-        type: 'module'
-      },
       workbox: {
-        globPatterns: ['**/*.{js,html,webp,svg,woff2,css,json}']
+        globPatterns: [
+          'client/**/*.{js,html,webp,svg,woff2,css,json,webmanifest}',
+          'prerendered/**/*.html'
+        ]
       },
       manifest: {
         name: 'B2SEOMDS : Votre agence web de référence !',
