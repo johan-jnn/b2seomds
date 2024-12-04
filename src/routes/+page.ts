@@ -7,4 +7,4 @@ export const load: PageLoad = async ({ parent }) => {
       a.metadata.created < b.metadata.created ? 1 : -1
     )[0]
   };
-};
+}; 

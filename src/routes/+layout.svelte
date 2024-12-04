@@ -4,6 +4,7 @@
   import '$lib/scss/app.scss';
   import { onMount } from 'svelte';
   import { pwaInfo } from 'virtual:pwa-info';
+  import { pwaAssetsHead } from 'virtual:pwa-assets/head';
 
   let webManifestLink = $state<string>();
   const { children } = $props();
@@ -56,6 +57,11 @@
     crossorigin="anonymous"
   />
   <meta property="og:site_name" content="b2seomds" />
+
+  <meta name="theme-color" content={pwaAssetsHead.themeColor?.content || '#197CAE'} />
+  {#each pwaAssetsHead.links as link}
+    <link {...link} />
+  {/each}
 
   {@html webManifestLink?.replace('./', '/')}
 </svelte:head>

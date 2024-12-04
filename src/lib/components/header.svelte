@@ -1,7 +1,7 @@
 <header>
   <a href="/" title="Revenir sur la page d'accueil de b2seomds">
     <img
-      src="/logo/logo_transp_75.webp"
+      src="/logo/logo_transp_512.webp"
       alt="Logo de l'agence web b2seomds"
       width="100%"
       height="100%"
