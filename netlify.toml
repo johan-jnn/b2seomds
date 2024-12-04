@@ -4,5 +4,5 @@
     Content-Type = "application/manifest+json"
 
 [build]
-  command = "npm run build && cp -r .svelte-kit/output/prerendered build"
+  command = "npm run build"
   publish = "build"
