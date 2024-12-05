@@ -16,15 +16,16 @@
   onMount(async () => {
     // register the PWA
     //? https://vite-pwa-org.netlify.app/frameworks/sveltekit#sveltekit-pwa-plugin-options
-    const { registerSW } = await import('virtual:pwa-register');
+    if (!pwaInfo) return;
 
+    const { registerSW } = await import('virtual:pwa-register');
     registerSW({
       immediate: true,
       onRegistered(r) {
         console.log(`SW Registered:`, r);
 
         // 1 hour
-        const updateCheckingInterval = 60 * 60 * 1000;
+        const updateCheckingInterval = 10 * 1000;
         if (r) {
           setInterval(() => {
             console.log('Checking for sw update...');
