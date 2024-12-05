@@ -24,8 +24,8 @@
       onRegistered(r) {
         console.log(`SW Registered:`, r);
 
-        // 1 hour
-        const updateCheckingInterval = 10 * 1000;
+        // 5 minutes
+        const updateCheckingInterval = 5 * 60 * 1000;
         if (r) {
           setInterval(() => {
             console.log('Checking for sw update...');
