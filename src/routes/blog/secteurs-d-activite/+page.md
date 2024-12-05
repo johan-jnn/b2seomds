@@ -95,10 +95,10 @@ Le contenu est au cœur de toute stratégie digitale réussie. Blogs, vidéos, i
 
 Les projets digitaux complexes nécessitent une coordination efficace entre les différents intervenants.
 
-### Chez **b2seomds**, nous
+### Et chez **b2seomds** ?
 
-- Accompagnons nos clients à chaque étape, de la conception à la mise en ligne.
-- Assurons un suivi personnalisé pour garantir le respect des délais et des budgets.
+- Nous accompagnons nos clients à chaque étape, de la conception à la mise en ligne.
+- Nous assurons un suivi personnalisé pour garantir le respect des délais et des budgets.
 
 ---
 
